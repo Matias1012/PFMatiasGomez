@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../style.css">
-
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="Icon" href="Icons/icon.ico">
@@ -13,27 +13,47 @@
 </head>
 <body>
     <header id="header">
-        <nav id="navBar"> 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <img class="logo" src="../Images/logo.png" alt="logo">
-            <ul class="navbar-ul">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../Pages/01locales.html">LOCALES</a></li>
-                <li><a href="../Pages/02productos.html">PRODUCTOS </a> </li>
-                <li><a href="../Pages/03contacto.html">CONTACTO </a></li>
-                <li><a href="../Pages/04faq.html">FAQ</a></li>
-            </ul>
+            <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Pages/01locales.html">LOCALES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Pages/02productos.html">PRODUCTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Pages/03contacto.html">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Pages/04faq.html">FAQ</a>
+                </li>
+                </ul>
+            </div>
+            </div>
         </nav>
     </header>
 <main>
-    <h1>Preguntas Frecuentes</h1>
-    <div class="caja1-faq"><h2>¿Realizan envios a otras provincias?</h2>
-        <p>Sí, realizamos envios a diferentes provincias via transporte o comicionista a su cargo</p>
-    </div>
-    <Todas class="caja2-faq"><h2>¿Tienen garantía las herramientas?</h2>
-        <p> Todas las herramientas tienen una garantía oficial dependiendo el importador y marca. Estan varian desde 6 meses hasta 3 años</p>
-    </div>
-    <div class="caja3-faq"><h2>¿Medios de pago?</h2> 
-        <p> Trabajamos con efectivo, transferencia y tarjetas de creditos con promociones bancarias dependiendo el día</p>
+    <h1 class="title-pages">Preguntas Frecuentes</h1>
+        <div class="container-faq flex-moblie">
+        <div class="caja1-faq"><h2 class="titulo-faq">¿Realizan envios a otras provincias?</h2>
+            <p>Sí, realizamos envios a diferentes provincias via transporte o comicionista a su cargo</p>
+        </div>
+        <div class="caja2-faq"><h2 class="titulo-faq">¿Tienen garantía las herramientas?</h2>
+            <p> Todas las herramientas tienen una garantía oficial dependiendo el importador y marca. Estan varian desde 6 meses hasta 3 años</p>
+        </div>
+        <div class="caja3-faq"><h2 class="titulo-faq">¿Medios de pago?</h2> 
+            <p> Trabajamos con efectivo, transferencia y tarjetas de creditos con promociones bancarias dependiendo el día</p>
+        </div>  
     </div>
 </main>
 
@@ -53,6 +73,7 @@
             <a href="" <i class="fa-brands fa-facebook"></i></a>
             <a href="" <i class="fa-brands fa-instagram"></i></a>       
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </footer>
 
 </body>

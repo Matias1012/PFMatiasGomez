@@ -1,0 +1,12 @@
+#header {
+  max-width: 1920px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#header h1 {
+  color: white;
+}
+
+/*# sourceMappingURL=header.css.map */
