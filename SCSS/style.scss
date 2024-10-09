@@ -8,7 +8,9 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+a {
+    cursor: pointer;
+}
 .main-container {
     width: 70%;
     margin: auto;
@@ -269,4 +271,17 @@ ul li {
     padding: 5px;
 }
 
+.modal {
+    padding: center;
+}
+
+#imagenes_productos {
+    a  {
+    
+        transition: opacity .25s ease-in-out;
+    }
+    a:hover{
+        opacity: 0.5;
+    }
+}
 /*# sourceMappingURL=style.css.map */
