@@ -33,11 +33,14 @@ body {
 .navbar-ul {
   width: 100%;
   height: 100%;
-  display: flex-end;
+  display: flex;
   justify-content: space-between;
-  padding-left: 700px;
   gap: 50px;
   max-width: 1200px;
+}
+
+#navbarNav {
+  justify-content: flex-end;
 }
 
 .navbar-btm {

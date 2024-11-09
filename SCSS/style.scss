@@ -17,7 +17,6 @@ a {
 }
 
 
-
 main {
     background-color: rgba(195, 3, 3, 0.902);
     max-width: 1920px;
@@ -156,9 +155,17 @@ ul li {
     margin: 0px auto;
     padding: 20px 0px;
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 100px repeat(3, flex);
     grid-template-rows: 100px repeat(2, flex);
     grid-template-areas: "taladro18 amoladora230 combo18" "taladro220 llaveimpacto circular";
+    img {
+        max-width: 100%;
+    }
+}
+
+#imagenes_productos.flex-moblie {
+    padding: 20px;
 }
 
 .img1 {
@@ -284,4 +291,10 @@ ul li {
         opacity: 0.5;
     }
 }
+
+.color-white {
+    color:white;
+}
+
+
 /*# sourceMappingURL=style.css.map */

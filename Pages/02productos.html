@@ -20,7 +20,7 @@
             <img class="logo" src="../Images/logo.png" alt="logo">
             <div class="container-fluid">
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" id="btnNavbarNav" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse navbar-ul" id="navbarNav">
@@ -51,29 +51,30 @@
 
     <section class="main-container flex-moblie" id="imagenes_productos">
         <a data-bs-toggle="modal" data-bs-target="#01taladro18"> 
-            <img class="img1" src="../Images/ImagenesProductos/01taladro18.png" width="350px" alt="taladro18"> 
+            <img class="img1" src="../Images/ImagenesProductos/01taladro18.png"  alt="taladro18"> 
         </a>
         <a data-bs-toggle="modal" data-bs-target="#02amoladora230"> 
-            <img class="img2" src="../Images/ImagenesProductos/02amoladora230.png" width="350px" alt="amoladora230"> 
+            <img class="img2" src="../Images/ImagenesProductos/02amoladora230.png"  alt="amoladora230"> 
         </a>
         <a data-bs-toggle="modal" data-bs-target="#03combo18"> 
-            <img class="img3" src="../Images/ImagenesProductos/03combo18.png" width="350px" alt="combo18"> 
+            <img class="img3" src="../Images/ImagenesProductos/03combo18.png"  alt="combo18"> 
         </a>
         <a data-bs-toggle="modal" data-bs-target="#04taladro220"> 
-            <img class="img4" src="../Images/ImagenesProductos/04taladro220.png" width="350px" alt="taladro220"> 
+            <img class="img4" src="../Images/ImagenesProductos/04taladro220.png"  alt="taladro220"> 
         </a>
         <a data-bs-toggle="modal" data-bs-target="#05llave-de-impacto"> 
-            <img class="img5" src="../Images/ImagenesProductos/05llave-de-impacto.png" width="350px" alt="llaveimpacto"> 
+            <img class="img5" src="../Images/ImagenesProductos/05llave-de-impacto.png"  alt="llaveimpacto"> 
         </a>
         <a data-bs-toggle="modal" data-bs-target="#06sierracircular"> 
-            <img class="img6" src="../Images/ImagenesProductos/06sierracircular.png" width="350px" alt="circular"> </adata-bs-toggle=>
+            <img class="img6" src="../Images/ImagenesProductos/06sierracircular.png"  alt="circular">
+        </a>
     </section>
 
     <div class="modal fade" id="01taladro18" tabindex="-1" aria-labelledby="taladro18" aria-hidden="true">
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
-                <img class="img1" src="../Images/ImagenesProductos/01taladro18.png" alt="taladro18">
+                <img class="img1" width="100%" src="../Images/ImagenesProductos/01taladro18.png" alt="taladro18">
                 <p>Taladro 18 Vol Milwaukee</p>
             </div>
         </div>
@@ -84,7 +85,7 @@
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
-                <img class="img2" src="../Images/ImagenesProductos/02amoladora230.png" alt="amoladora230">
+                <img width="100%" class="img2" src="../Images/ImagenesProductos/02amoladora230.png" alt="amoladora230">
                 <p>Amoladora 230mm Milwaukee</p>
             </div>
         </div>
@@ -95,7 +96,7 @@
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
-                <img class="img3" src="../Images/ImagenesProductos/03combo18.png" alt="combo18">
+                <img width="100%" class="img3" src="../Images/ImagenesProductos/03combo18.png" alt="combo18">
                 <p>Combo Taladro y Atornillador de impacto Milwaukee</p>
             </div>
         </div>
@@ -107,7 +108,7 @@
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
-                <img class="img4" src="../Images/ImagenesProductos/04taladro220.png" alt="taladro220">
+                <img width="100%" class="img4" src="../Images/ImagenesProductos/04taladro220.png" alt="taladro220">
                 <p>Taladro Percutor 220v Milwaukee</p>
             </div>
         </div>
@@ -118,7 +119,7 @@
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
-                <img class="img5" src="../Images/ImagenesProductos/05llave-de-impacto.png" alt="llaveimpacto">
+                <img width="100%" class="img5" src="../Images/ImagenesProductos/05llave-de-impacto.png" alt="llaveimpacto">
                 <p>Llave de impacto Milwaukee</p>
             </div>
         </div>
@@ -129,7 +130,7 @@
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
-                <img class="img6" src="../Images/ImagenesProductos/06sierracircular.png" alt="circular">
+                <img width="100%" class="img6" src="../Images/ImagenesProductos/06sierracircular.png" alt="circular">
                 <p>Sierra Circular Milwaukee</p>
             </div>
         </div>
@@ -150,9 +151,13 @@
         </ul>
     </div>
     <div class="footer-redes">
-            <div class="texto-redes">Nuestras redes:</div>        
-            <a href="" <i class="fa-brands fa-facebook"></i></a>
-            <a href="" <i class="fa-brands fa-instagram"></i></a>       
+        <div class="firma mb-10">
+            <p class="color-white"> Desarrolado por <b> <br> Matias Gómez</b></p>
+        </div>
+
+        <div class="texto-redes">Nuestras redes:</div>        
+        <a href="" <i class="fa-brands fa-facebook"></i></a>
+        <a href="" <i class="fa-brands fa-instagram"></i></a>       
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </footer>

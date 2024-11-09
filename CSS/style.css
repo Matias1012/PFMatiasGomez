@@ -152,9 +152,17 @@ ul li {
   margin: 0px auto;
   padding: 20px 0px;
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: 100px repeat(3, flex);
   grid-template-rows: 100px repeat(2, flex);
   grid-template-areas: "taladro18 amoladora230 combo18" "taladro220 llaveimpacto circular";
+}
+#imagenes_productos img {
+  max-width: 100%;
+}
+
+#imagenes_productos.flex-moblie {
+  padding: 20px;
 }
 
 .img1 {
@@ -267,8 +275,8 @@ ul li {
   padding: 5px;
 }
 
-.modal-dialog {
-  text-align: center;
+.modal {
+  padding: center;
 }
 
 #imagenes_productos a {
@@ -276,6 +284,14 @@ ul li {
 }
 #imagenes_productos a:hover {
   opacity: 0.5;
+}
+
+.color-white {
+  color: white;
+}
+
+#navbarNav {
+  justify-content: flex-end;
 }
 
 
